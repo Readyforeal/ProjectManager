@@ -1,0 +1,33 @@
+#section-project-add{
+    width: 50%;
+    min-width: 400px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+    #section-project-add form{
+        width: 100%;
+    }
+
+    #section-project-add form input{
+        float: left;
+        margin-bottom: 20px;
+        height: 40px;
+    }
+
+    #section-project-add form button{
+        clear: left;
+        float: right;
+        width: 150px;
+        margin-top: 25px;
+    }
+
+    #section-project-add form input:focus{
+        outline: none !important;
+    }
+
+    #section-project-add form textarea:focus{
+        outline: none !important;
+    }

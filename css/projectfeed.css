@@ -1,0 +1,47 @@
+#projectfeed-section{
+    width: 100%;
+    float: left;
+}
+
+    #projectfeed-createpost{
+        width: 100%;
+    }
+
+    #projectfeed-createpost form{
+        width: 100%;
+        border-radius: 25px;
+        background-color: #FAFAFA;
+    }
+
+    #projectfeed-createpost form textarea{
+        font-size: 12pt;
+        width: 100%;
+        padding: 0px;
+        min-height: 100px;
+    }
+
+    #projectfeed-createpost form button{
+        margin: 20px;
+        float: right;
+        width: 150px;
+    }
+
+.projectfeed-posts{
+    margin-top: 20px;
+}
+
+    .projectfeed-post{
+        padding: 20px;
+        border-radius: 15px;
+        background-color: #FAFAFA;
+        margin: 20px 0px 20px 0px;
+    }
+
+    .projectfeed-post-poster{
+        font-size: 10pt;
+        color: #B0BEC5
+    }
+
+    .projectfeed-post-content{
+
+    }

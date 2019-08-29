@@ -1,0 +1,31 @@
+body{
+    padding-left: 300px !important;
+    margin: 0;
+}
+
+#main-menu{
+    z-index: 1000;
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ECEFF1;
+}
+
+#main-app{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1500px){
+
+    body{
+        padding-left: 50px !important;
+    }
+
+    #main-menu{
+        width: 50px;
+    }
+}

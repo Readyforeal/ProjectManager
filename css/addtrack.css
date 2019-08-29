@@ -1,0 +1,58 @@
+#section-track-add{
+    width: 50%;
+    min-width: 400px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+    #section-track-add form{
+        width: 100%;
+    }
+
+    #section-track-add form input{
+        float: left;
+        padding-left: 5px;
+        height: 40px;
+    }
+
+    #section-track-add form button{
+        float: right;
+        width: 150px;
+        margin-top: 25px;
+    }
+
+    #section-track-add form input:focus{
+        outline: none !important;
+    }
+
+    #section-track-add form textarea:focus{
+        outline: none !important;
+    }
+
+        #title{
+            width: 50%;
+        }
+
+        #genre{
+            width: 20%;
+        }
+
+        #minutes{
+            width: 10%;
+        }
+
+        #seconds{
+            width: 10%;
+        }
+
+        #bpm{
+            width: 10%;
+        }
+
+        #lyrics{
+            width: 100%;
+            padding: 10px;
+            min-height: 400px;
+        }
